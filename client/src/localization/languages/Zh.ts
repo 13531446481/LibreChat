@@ -95,7 +95,7 @@ export default {
   com_ui_showing: '显示',
   com_ui_of: '/',
   com_ui_entries: '项',
-  com_ui_pay_per_call: '所有对话都将集中在一处。按会话次数计费，而不是按月付费',
+  com_ui_pay_per_call: '所有对话都将集中在一处。',
   com_ui_new_footer: '所有对话都将集中在一处。',
   com_ui_enter: '进入',
   com_ui_submit: '提交',
@@ -911,7 +911,7 @@ export const comparisons = {
   },
   com_ui_pay_per_call: {
     english: 'All AI conversations in one place. Pay per call and not per month',
-    translated: '所有对话都将集中在一处。按会话次数计费，而不是按月付费',
+    translated: '所有对话都将集中在一处。',
   },
   com_ui_new_footer: {
     english: 'All AI conversations in one place.',
