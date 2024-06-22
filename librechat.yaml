@@ -94,7 +94,7 @@ endpoints:
     - name: 'Claude'
       apiKey: '${OPENAI_API_KEY}'
       baseURL: 'https://api.787743.top/v1'
-      iconURL: https://github.com/danny-avila/LibreChat/raw/main/docs/assets/LibreChat.svg
+      iconURL: https://gpt.yuyuantech.top/public/claude.png
       models:
         default: [
           "claude-3-5-sonnet-20240620",
