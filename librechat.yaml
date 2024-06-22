@@ -102,12 +102,13 @@ endpoints:
           ]
         fetch: false
       titleConvo: true
-      titleModel: 'claude-3-haiku'
+      titleModel: 'claude-3-haiku-20240307'
       titleMethod: "completion"
       modelDisplayLabel: 'Anthropic'
       forcePrompt: false
       sendTokenCount: true
-      iconURL: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6AA9LracQcQF63PgkNKpyP22bWuzIsgM99_AUhriy98QZ_M4uZ_dGuyZQ3kpghOUzDU&usqp=CAU
+      iconURL: https://github.com/danny-avila/LibreChat/raw/main/docs/assets/LibreChat.svg
+
 
     # # Mistral AI Example
     # - name: 'Mistral' # Unique name for the endpoint
