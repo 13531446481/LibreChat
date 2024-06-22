@@ -94,7 +94,6 @@ endpoints:
     - name: 'Claude'
       apiKey: '${OPENAI_API_KEY}'
       baseURL: 'https://api.787743.top/v1'
-      iconURL: https://gpt.yuyuantech.top/public/claude.png
       models:
         default: [
           "claude-3-5-sonnet-20240620",
