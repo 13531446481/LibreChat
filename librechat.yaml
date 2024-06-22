@@ -89,6 +89,24 @@ endpoints:
   #     titleModel: 'mixtral-8x7b-32768'
   #     modelDisplayLabel: 'groq'
 
+  custom:
+    # claude
+    - name: 'anthropic'
+      apiKey: '${YOUR_ENV_VAR_KEY}'
+      baseURL: 'https://api.787743.top/v1/'
+      models:
+        default: [
+          "claude-3-sonnet",
+          "claude-3-haiku",
+          "claude-3-5-sonnet-20240620",
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: 'claude-3-haiku'
+      titleMethod: "completion"
+      modelDisplayLabel: 'anthropic'
+  
+
     # # Mistral AI Example
     # - name: 'Mistral' # Unique name for the endpoint
     #   # For `apiKey` and `baseURL`, you can use environment variables that you define.
