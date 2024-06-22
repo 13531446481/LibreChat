@@ -92,7 +92,7 @@ endpoints:
   custom:
     # claude
     - name: 'anthropic'
-      apiKey: '${YOUR_ENV_VAR_KEY}'
+      apiKey: '${ANTHROPIC_API_KEY}'
       baseURL: 'https://api.787743.top/v1/'
       models:
         default: [
