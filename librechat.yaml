@@ -107,7 +107,7 @@ endpoints:
       modelDisplayLabel: 'Anthropic'
       forcePrompt: false
       sendTokenCount: true
-      iconURL: 'https://yuyuantech.top/public/images/claude.png'
+      iconURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6AA9LracQcQF63PgkNKpyP22bWuzIsgM99_AUhriy98QZ_M4uZ_dGuyZQ3kpghOUzDU&usqp=CAU'
 
     # # Mistral AI Example
     # - name: 'Mistral' # Unique name for the endpoint
