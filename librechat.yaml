@@ -107,7 +107,7 @@ endpoints:
       modelDisplayLabel: 'Anthropic'
       forcePrompt: false
       sendTokenCount: true
-      iconURL: anthropic
+      iconURL: 'https://yuyuantech.top/public/images/claude.png'
 
     # # Mistral AI Example
     # - name: 'Mistral' # Unique name for the endpoint
