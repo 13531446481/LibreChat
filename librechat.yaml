@@ -107,7 +107,7 @@ endpoints:
       modelDisplayLabel: 'Anthropic'
       forcePrompt: false
       sendTokenCount: true
-      iconurl: anthropic
+      iconURL: anthropic
 
     # # Mistral AI Example
     # - name: 'Mistral' # Unique name for the endpoint
