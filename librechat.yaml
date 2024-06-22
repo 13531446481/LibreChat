@@ -60,10 +60,10 @@ registration:
 
 # Definition of custom endpoints
 endpoints:
-  assistants:
+  # assistants:
     # disableBuilder: false # Disable Assistants Builder Interface by setting to `true`
   #   pollIntervalMs: 3000  # Polling interval for checking assistant updates
-    timeoutMs: 180000  # Timeout for assistant operations
+    # timeoutMs: 180000  # Timeout for assistant operations
   #   # Should only be one or the other, either `supportedIds` or `excludedIds`
   #   supportedIds: ["asst_supportedAssistantId1", "asst_supportedAssistantId2"]
   #   # excludedIds: ["asst_excludedAssistantId"]
@@ -91,9 +91,9 @@ endpoints:
 
   custom:
     # claude
-    - name: 'anthropic'
+    - name: 'anthropic-custom'
       apiKey: '${ANTHROPIC_API_KEY}'
-      baseURL: 'https://api.787743.top/v1/'
+      baseURL: 'https://api.787743.top/v1'
       models:
         default: [
           "claude-3-sonnet",
@@ -104,7 +104,9 @@ endpoints:
       titleConvo: true
       titleModel: 'claude-3-haiku'
       titleMethod: "completion"
-      modelDisplayLabel: 'anthropic'
+      modelDisplayLabel: 'Anthropic'
+      forcePrompt: false
+      sendTokenCount: true
   
 
     # # Mistral AI Example
